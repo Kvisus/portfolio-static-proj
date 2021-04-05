@@ -1,0 +1,63 @@
+body {
+    font-size:20px;
+    width:70%;
+    font-family: "Space Mono", monospace;
+    
+    margin:auto;
+}
+
+nav {
+    padding:1rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+.flexbox {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.main {
+    line-height: 1.2;
+}
+
+ul .flexbox{
+    
+    justify-content:center;
+}
+
+#about {
+    display:inline-flex;
+    margin:5% auto;
+    height:18rem;
+}
+
+#about h3 {
+    margin-bottom: 1rem;
+}
+
+#about img {
+    max-width: 30%;
+    height:auto;
+    object-fit:scale-down;
+    margin: 2%;
+    border-radius: 0.5rem;
+}
+
+#projects {
+    margin: 5% auto;
+    flex-direction: column;
+}
+
+#skills .flexbox {
+    justify-content: space-around;
+    margin-top: 1rem;
+
+}
+
+
+@media only screen and(max-width: 850px) {
+    
+}
