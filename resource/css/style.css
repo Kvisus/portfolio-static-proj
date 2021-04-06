@@ -58,6 +58,7 @@ ul .flexbox{
 
 .project {
     cursor: pointer;
+    margin:4% 0;
 }
 
 .project-title h3 {
