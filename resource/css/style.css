@@ -14,6 +14,10 @@ nav ul li a{
     text-decoration: none;
 }
 
+h1,h2,h3 {
+    font-weight:bold;
+}
+
 .flexbox {
     display:flex;
     justify-content: space-evenly;
@@ -44,6 +48,7 @@ ul .flexbox{
     object-fit:scale-down;
     margin: 2%;
     border-radius: 0.5rem;
+    width: 15rem;
 }
 
 #projects {
@@ -51,13 +56,46 @@ ul .flexbox{
     flex-direction: column;
 }
 
+.project {
+    cursor: pointer;
+}
+
+.project-title h3 {
+    display:inline;
+}
+
 #skills .flexbox {
     justify-content: space-around;
     margin-top: 1rem;
-
+    font-size: larger;
 }
 
+.contact a{
+    text-decoration: none;
+    color: black;
+}
 
-@media only screen and(max-width: 850px) {
-    
+.contact i {
+    padding: 2% 3%;
+    display: inline-flex;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    #about {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #about img {
+        max-width: 100%;
+    }
+
+    nav {
+        display: flex;
+        margin: auto 5%;
+    }
 }
